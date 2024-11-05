@@ -7,13 +7,14 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
+import TeamPage from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Codesphare Innovations",
+  description: "Your imaginations our innovations",
   // other metadata
 };
 
@@ -23,14 +24,15 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
+      {/* <Video /> */}
       <Brands />
       <AboutSectionOne />
-      <AboutSectionTwo />
+      {/* <AboutSectionTwo /> */}
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <Blog />
       <Contact />
+      <TeamPage></TeamPage>
     </>
   );
 }
